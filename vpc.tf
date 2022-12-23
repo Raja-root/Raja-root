@@ -24,7 +24,7 @@ resource "aws_subnet" "public-subnet-1" {
   availability_zone       = "ap-south-1a"
   map_public_ip_on_launch = true
   tags = {
-    Name = "public-subnet-1"
+    Name = "public-subnet-11"
   }
 }
 # Create Route Table and Add Public Route
